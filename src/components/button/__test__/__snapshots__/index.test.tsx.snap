@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`test Button component > should render correctly 1`] = `
+<DocumentFragment>
+  <button>
+    <span />
+    <span>
+      blank
+    </span>
+    <span />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`test Button component > should render disabled and children 1`] = `
+<DocumentFragment>
+  <button
+    disabled=""
+  >
+    <span />
+    <span>
+      hello
+    </span>
+    <span />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`test Button component > should render loading 1`] = `
+<DocumentFragment>
+  <button>
+    <span>
+      loading
+    </span>
+    <span>
+      blank
+    </span>
+    <span />
+  </button>
+</DocumentFragment>
+`;
